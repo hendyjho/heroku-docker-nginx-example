@@ -9,4 +9,8 @@ server {
   location /archive {
     try_files $uri $uri/ /archive.html;
   }
+
+  location /live {
+    try_files $uri $uri/ /live.html;
+  }
 }
