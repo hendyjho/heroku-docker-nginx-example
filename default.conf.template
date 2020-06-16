@@ -1,13 +1,12 @@
 server {
   listen $PORT default_server;
+  root   /usr/share/nginx/html;
 
   location / {
-    root   /usr/share/nginx/html;
     index  index.html index.htm;
   }
 
   location /archive {
-    root /usr/share/nginx/html;
-    index archive.html archive.htm;
+    archive.html;
   }
 }
