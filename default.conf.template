@@ -5,12 +5,17 @@ server {
   location / {
     index  index.html index.htm;
   }
-
-  location /archive {
-    try_files $uri $uri/ /archive.html;
+  
+  location ~ (js|css|img) {
+    try_files $uri $uri/ =404;
+    root   /usr/share/nginx/html;
   }
 
-  location /live {
-    try_files $uri $uri/ /live.html;
-  }
+ # location /archive {
+ #   try_files $uri $uri/ /archive.html;
+ # }
+
+ # location /live {
+ #   try_files $uri $uri/ /live.html;
+ # }
 }
