@@ -11,8 +11,17 @@ server {
     root   /usr/share/nginx/html;
   }
 
- location /play_window {
-    try_files $uri $uri/ /play_window.html;
+ location /newest {
+    try_files $uri $uri/ /newest.html;
+ }
+ 
+ location /previous {
+    try_files $uri $uri/ /previous.html;
+ }
+
+
+ location /archive {
+    try_files $uri $uri/ /archive.html;
  }
 
  # location /live {
