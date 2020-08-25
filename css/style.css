@@ -311,7 +311,7 @@ a:hover{
     top: 0;
   }
   10% {
-    top: -1px;  
+    top: -10px;  
   }
   12% {
     top: 0;
@@ -320,7 +320,7 @@ a:hover{
     top: 0;
   }
   55% {
-    top: -3px;  
+    top: -30px;  
   }
   56% {
     top: 0;
@@ -329,7 +329,7 @@ a:hover{
     top: 0;
   }
   87% {
-    top: -6px;  
+    top: -60px;  
   }
   88% {
     top: 0;
@@ -341,7 +341,7 @@ a:hover{
     top: 0;
   }
   10% {
-    top: -1px;  
+    top: -10px;  
   }
   12% {
     top: 0;
@@ -350,7 +350,7 @@ a:hover{
     top: 0;
   }
   55% {
-    top: -3px;  
+    top: -30px;  
   }
   56% {
     top: 0;
@@ -359,10 +359,11 @@ a:hover{
     top: 0;
   }
   87% {
-    top: -6px;  
+    top: -60px;  
   }
   88% {
     top: 0;
   }
 }
+
 
