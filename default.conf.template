@@ -11,9 +11,9 @@ server {
     root   /usr/share/nginx/html;
   }
 
- # location /archive {
- #   try_files $uri $uri/ /archive.html;
- # }
+ location /play_window {
+    try_files $uri $uri/ /play_window.html;
+ }
 
  # location /live {
  #   try_files $uri $uri/ /live.html;
